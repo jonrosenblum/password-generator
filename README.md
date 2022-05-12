@@ -25,9 +25,14 @@ WHEN I click the button to generate a password
 
 ### Work Completed
 
+- Created Arrays of Possible Character Choices
+- Created function to ask user which options and made conditional statements to ensure minimum option requirements were met.
+- Created function that joins all the user responses and then creates the result - a strong password.
+- Write password to the password input
+
 ### Website Link
 
-https://jonrosenblum.github.io/Password Generator/
+https://jonrosenblum.github.io/Password-Generator/
 
 ### Screenshot
 

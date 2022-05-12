@@ -91,7 +91,7 @@ function questions() {
   );
   if (length < 8 || length > 128) {
     alert("Choose number between 8 and 128");
-    questions();
+    return questions();
   }
   var askNumbers = confirm("Do you want your password to include numbers?");
   var askLowerCase = confirm(
@@ -112,7 +112,7 @@ function questions() {
   };
   if (!askNumbers && !askLowerCase && !askUpperCase && !askSpecial) {
     alert("Must choose at least one type.");
-    questions();
+    return questions();
   }
   return responses;
 }
@@ -123,16 +123,16 @@ function generatePassword() {
   var finalPassword = "";
 
   if (passwordOptions.askNumbers) {
-    for (var i of numbers) possibleCombo.push(i);
+    possibleCombo = possibleCombo.concat(numbers);
   }
   if (passwordOptions.askLowerCase) {
-    for (var i of lowerCase) possibleCombo.push(i);
+    possibleCombo = possibleCombo.concat(lowerCase);
   }
   if (passwordOptions.askUpperCase) {
-    for (var i of upperCase) possibleCombo.push(i);
+    possibleCombo = possibleCombo.concat(upperCase);
   }
   if (passwordOptions.askSpecial) {
-    for (var i of special) possibleCombo.push(i);
+    possibleCombo = possibleCombo.concat(special);
   }
 
   console.log(possibleCombo);
