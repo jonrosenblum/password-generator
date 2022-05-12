@@ -2,40 +2,37 @@
 
 ## Description
 
-For this challenge, I was tasked with refactoring the codebase for Horiseon, a fictional marketing agency. 
+Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
 
 ### Acceptance Criteria
 
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-* THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-* THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-* THEN I find accessible alt attributes
-WHEN I view the heading attributes
-* THEN I find that they fall in sequential order
-WHEN I view the title element
-* THEN I find a concise, descriptive title
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
 
-The client has requested a landing page that is optimized for search engines and follows accessibility standards.
+- THEN I am presented with a series of prompts for password criteria
+  WHEN prompted for password criteria
+- THEN I select which criteria to include in the password
+  WHEN prompted for the length of the password
+- THEN I choose a length of at least 8 characters and no more than 128 characters
+  WHEN prompted for character types to include in the password
+- THEN I choose lowercase, uppercase, numeric, and/or special characters
+  WHEN I answer each prompt
+- THEN my input should be validated and at least one character type should be selected
+  WHEN all prompts are answered
+- THEN a password is generated that matches the selected criteria
+  WHEN the password is generated
+- THEN the password is either displayed in an alert or written to the page
 
 ### Work Completed
 
-* Added and optimized the website title
-* Fixed broken internal links
-* Refactored HTML to make use of semantic elements
-* Removed unnecessary CSS classes
-* Consolidated redundant CSS selectors and properties
-* Re-ordered CSS to follow HTML structure
-* Added alt attributes to images
-
 ### Website Link
-https://jonrosenblum.github.io/challenge-1/
+
+https://jonrosenblum.github.io/Password Generator/
 
 ### Screenshot
 
 ![screenshot](./assets/Application%20SS.png)
 
 ## Contact
+
 [Jon Rosenblum on GitHub](http://github.com/jonrosenblum)
