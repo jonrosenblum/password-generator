@@ -36,7 +36,10 @@ https://jonrosenblum.github.io/Password-Generator/
 
 ### Screenshot
 
-![screenshot](./assets/Application%20SS.png)
+![screenshot](./Assets/Screen%20Shot%202022-05-12%20at%206.48.20%20PM.png)
+![screenshot](./Assets/Screen%20Shot%202022-05-12%20at%206.48.30%20PM.png)
+![screenshot](./Assets/Screen%20Shot%202022-05-12%20at%206.48.38%20PM.png)
+![screenshot](./Assets/Screen%20Shot%202022-05-12%20at%206.48.50%20PM.png)
 
 ## Contact
 
