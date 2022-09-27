@@ -6,7 +6,7 @@ This project is a learning assignment derivative of html and css starter code gi
 
 ### Website Link
 
-https://jonrosenblum.github.io/Password-Generator/
+https://jonrosenblum.github.io/password-generator/
 
 ## Table of Contents 
 
