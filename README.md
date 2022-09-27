@@ -42,7 +42,7 @@ code .
 This project can be used as refrence for a simple javascript function that executes upon a button's click. Additionally, if you choose to build the javascript function, it offers a solution with which you can compare yours.
 
 
-### Screenshot
+## Demo Screenshots
 
 ![screenshot](./Assets/Screen%20Shot%202022-05-12%20at%206.48.20%20PM.png)
 ![screenshot](./Assets/Screen%20Shot%202022-05-12%20at%206.48.30%20PM.png)
